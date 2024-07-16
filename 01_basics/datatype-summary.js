@@ -17,11 +17,35 @@ let myObj = {
 const myFunction = function() {
     console.log("hello world");
 }
-console.log(wwe);
-console.log(myObj);
-console.log(myFunction);
-console.log(typeof wwe);
-console.log(typeof myObj);
-console.log(typeof myFunction);
-console.log(typeof myFunction);
-console.log(typeof id);
+// console.log(wwe);
+// console.log(myObj);
+// console.log(myFunction);
+// console.log(typeof wwe);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);
+// console.log(typeof myFunction);
+// console.log(typeof id);
+
+
+
+
+
+// +++++++++++++++++++++++++++Memory++++++++++++++++++++++++++++++++++++++++
+
+// types: stack (premitive) and heap (non premitive)
+
+let myYoutubeName = "VatsalPrajapatiDotCom";
+let anotherName = myYoutubeName
+anotherName = "sonu prajapati"
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "vatsal@google.com"
+userTwo.upi = "vatsal@ybl"
+console.log(userOne);
+console.log(userTwo);
