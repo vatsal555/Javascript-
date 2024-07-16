@@ -19,6 +19,9 @@ console.log(null > undefined);
 console.log(null == undefined);
 console.log(null >= undefined);
 
+// avoid this type of comparison it's provide an error
+
 console.log(undefined > null);
 console.log(undefined == null);
 console.log(undefined >= null);
+
