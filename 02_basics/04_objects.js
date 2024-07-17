@@ -66,4 +66,4 @@ let {courseinstructor : instructor} = course
 let {coursename} = course
 let {price : rs} = course
 
-console.log(rs);
+console.log(rs); 
