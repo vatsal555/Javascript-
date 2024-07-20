@@ -4,5 +4,5 @@
 // console.log("D");
 // console.log("E");
 
-let alphabet = "A, B, C, D, E"
+let alphabet = "A  B  C  D  E"
 console.log(alphabet);
