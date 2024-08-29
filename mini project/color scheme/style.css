@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.container {
+  text-align: center;
+  width: auto;
+  margin: 100px auto 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 50%;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  /* display: inline-block; */
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+
+h2 {
+  text-align: center;
+}
