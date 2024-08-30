@@ -1,5 +1,6 @@
 const btn = document.querySelector("form button");
 const results = document.querySelector("#results");
+const range = document.querySelector("#range");
 
 btn.addEventListener("click", (evt) => {
   evt.preventDefault();
@@ -16,5 +17,16 @@ let resultPrinter = () => {
   } else {
     const bmi = (weight / ((height * height) / 10000)).toFixed(2);
     results.innerHTML = `${bmi}`;
+    weightGuide(bmi);
+  }
+};
+
+let weightGuide = (bmi) => {
+  if (bmi <= 18.6) {
+    range.innerHTML = `Under Weight`;
+  } else if (bmi >= 24.9) {
+    range.innerHTML = `Over Weight`;
+  } else {
+    range.innerHTML = `Normal Weight`;
   }
 };
